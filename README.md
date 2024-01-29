@@ -44,9 +44,10 @@ You can scale AWS resources up or down based on traffic spikes or changing deman
 
    1. You need to have SSh keys generated , there is a coupe of ways to do that .
    
-   ( Linux: https://cloudkatha.com/how-to-create-key-pair-in-aws-using-terraform-in-right-way/
+   ( 
+   Linux: https://cloudkatha.com/how-to-create-key-pair-in-aws-using-terraform-in-right-way/
      
-    Windows: https://letmetechyou.com/create-an-aws-key-pair-using-terraform/  )
+   Windows: https://letmetechyou.com/create-an-aws-key-pair-using-terraform/  )
 
    2. Create an IAM Role for terraform access and create security credentials using aws console (AccessKey, SecretKey) and update in the `~/.aws/credentials`.
    
