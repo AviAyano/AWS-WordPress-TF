@@ -52,10 +52,11 @@ Usage:
 provisioning:
 -------------
 
-1. git clone https://github.com/AviAyano/Wordpress-on-AWS-using-TF.git
-2. cd Wordpress-on-AWS-using-TF
+1. git clone https://github.com/AviAyano/AWS-WordPress-TF.git
+2. cd AWS-WordPress-TF
 - Run `terraform init`
-- Run `terraform plan`
+__Note__:Customize the wordpress.tfvars file for your project 
+- Run `terraform plan -var-file="./wordpress.tfvars"` 
 - Run `terraform apply`
 
 

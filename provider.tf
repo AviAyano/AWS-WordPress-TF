@@ -5,6 +5,8 @@ terraform {
       version = "~> 5.0"
     }
   }
+  #Store and manage the terraform state on S3 
+  
   # backend "s3" {
   #   bucket         = "terraform-remote-state-wordpress-project"
   #   key            = "web/wordpress.tfstate"
