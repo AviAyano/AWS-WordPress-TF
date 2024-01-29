@@ -1,6 +1,6 @@
 
 # Deploying Wordpress App on AWS with RDS using Terraform
-(files/wordpress_architecture.png)
+(./wordpress_architecture.png)
 
 
 intro:
